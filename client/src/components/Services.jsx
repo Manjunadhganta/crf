@@ -4,55 +4,55 @@ const services = [
   {
     title: "Pre-Property Registration",
     subtitle: "Sale deeds, agreements, GPA, SPA, Gift deeds etc.",
-    img: "/pre-property-registration.jpg",
+    img: "/pre-property-registration.webp",
     link: "/services/pre-property"
   },
   {
     title: "Legal Documentation",
     subtitle: "Lease deeds, rental agreements, mortgage & release deeds.",
-    img: "/legal-documentation.jpg",
+    img: "/legal-documentation.webp",
     link: "/services/legal-documents"
   },
   {
     title: "Registration Processing",
     subtitle: "Slot booking, challan payments, TDS filing, presentation.",
-    img: "/registration-processing.jpg",
+    img: "/registration-processing.webp",
     link: "/services/registration-process"
   },
   {
     title: "Post Registration Services",
     subtitle: "Property tax, EC, CC, water, sewerage & electricity transfers.",
-    img: "/post-registration-services.jpg",
+    img: "/post-registration-services.webp",
     link: "/services/post-registration"
   },
   {
     title: "Approvals & Permissions",
     subtitle: "Building permits, survey number verification & compliance.",
-    img: "/approvals-permissions.jpg",
+    img: "/approvals-permissions.webp",
     link: "/services/approvals"
   },
   {
     title: "Personal Legal Support",
     subtitle: "Affidavits, marriage records, legal heir & name change.",
-    img: "/personal-legal-support.jpg",
+    img: "/personal-legal-support.webp",
     link: "/services/personal"
   },
   {
     title: "Organization Registrations",
     subtitle: "Trusts, societies, firms & chit fund registrations.",
-    img: "/organization-registrations.jpg",
+    img: "/organization-registrations.webp",
     link: "/services/organizations"
   },
   {
     title: "Loan Facilitation",
     subtitle: "Bank proposals and document processing.",
-    img: "/loan-facilitation.jpg",
+    img: "/loan-facilitation.webp",
     link: "/services/loan"
   },
   {
     title: "NRI Exclusive Services",
     subtitle: "Property verification, registration & documentation support.",
-    img: "/nri-exclusive.jpg",
+    img: "/nri-exclusive.webp",
     link: "/services/nri"
   }
 ];

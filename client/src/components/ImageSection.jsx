@@ -2,15 +2,15 @@ import { useState, useEffect, useRef } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const images = [
-      "/pre-property-registration.jpg",
-      "/legal-documentation.jpg",
-      "/registration-processing.jpg",
-      "/post-registration-services.jpg",
-      "/approvals-permissions.jpg",
-      "/personal-legal-support.jpg",
-      "/organization-registrations.jpg",
-      "/loan-facilitation.jpg",
-      "/nri-exclusive.jpg",
+      "/pre-property-registration.webp",
+      "/legal-documentation.webp",
+      "/registration-processing.webp",
+      "/post-registration-services.webp",
+      "/approvals-permissions.webp",
+      "/personal-legal-support.webp",
+      "/organization-registrations.webp",
+      "/loan-facilitation.webp",
+      "/nri-exclusive.webp",
 ];
 
 export default function ImageSection() {

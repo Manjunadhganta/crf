@@ -43,7 +43,7 @@ export default function Navbar() {
     
         <a href="#" className="hover:text-gray-600">News</a>
 
-        <a href="#" className="hover:text-gray-600">Contact Us</a>
+        <a href="#contact" className="hover:text-gray-600">Contact Us</a>
 
         {/* Close button */}
         <button

@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 
 export default function Hero() {
   return (
-    <section className="bg-[url('/gridBackground.png')] w-full bg-no-repeat bg-cover bg-center text-sm pb-44">
+    <section className="bg-[url('/gridBackground.webp')] w-full bg-no-repeat bg-cover bg-center text-sm pb-44">
       <Navbar />
       <div className="flex items-center gap-2 border border-slate-300 hover:border-slate-400/70 rounded-full w-max mx-auto px-4 py-2 mt-40 md:mt-25">
         <span>Your Legal Work — Sorted.</span>
