@@ -16,7 +16,7 @@ export default function Navbar() {
           open ? "max-md:w-full" : "max-md:w-0"
         } max-md:absolute max-md:top-0 max-md:left-0 max-md:transition-all max-md:duration-300 max-md:overflow-hidden max-md:h-full max-md:bg-white/50 max-md:backdrop-blur max-md:flex-col max-md:justify-center flex items-center gap-8 font-medium`}
       >
-        <a href="#" className="hover:text-gray-600">About Us</a>
+        <a href="#about us" className="hover:text-gray-600">About Us</a>
 
         {/* Dropdown */}
         <div className="relative group flex items-center gap-1 cursor-pointer">
@@ -24,9 +24,10 @@ export default function Navbar() {
             <ChevronDown size={18} />
 
             <div className="absolute bg-white font-normal flex flex-col gap-2 w-max rounded-lg p-4 
-            top-full mt-2 left-0 opacity-0 pointer-events-none 
-            group-hover:opacity-100 group-hover:pointer-events-auto 
-            translate-y-2 group-hover:translate-y-0 transition-all duration-300">
+              left-0 top-full mt-2 
+              opacity-0 invisible 
+              group-hover:opacity-100 group-hover:visible 
+              transition-all duration-500 shadow-lg">
                 
                 <a href="#" className="hover:translate-x-1 hover:text-slate-500 transition-all">Pre Property Registration</a>
                 <a href="#" className="hover:translate-x-1 hover:text-slate-500 transition-all">Registration</a>
@@ -37,6 +38,9 @@ export default function Navbar() {
                 <a href="#" className="hover:translate-x-1 hover:text-slate-500 transition-all">NRI Exclusive</a>
             </div>
             </div>
+            
+        <a href="#" className="hover:text-gray-600">Acts & Rules</a>
+    
         <a href="#" className="hover:text-gray-600">News</a>
 
         <a href="#" className="hover:text-gray-600">Contact Us</a>
