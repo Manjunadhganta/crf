@@ -1,8 +1,11 @@
 import { useState } from "react";
 import { Menu, X, ChevronDown, BookMarked } from "lucide-react";
+import { useNavigate } from "react-router-dom";
+
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
+  const navigate = useNavigate();
 
   return (
     <nav className="flex items-center justify-between p-4 md:px-16 lg:px-24 xl:px-32 md:py-6 w-full">
@@ -45,6 +48,22 @@ export default function Navbar() {
 
         <a href="#contact" className="hover:text-gray-600">Contact Us</a>
 
+        <div className="md:hidden flex flex-col gap-3 mt-6">
+          <button
+            onClick={() => navigate("/login")}
+            className="bg-gray-800 hover:bg-black text-white px-6 py-3 rounded-xl font-medium transition w-full"
+          >
+            Register
+          </button>
+
+          <button
+            onClick={() => navigate("/login")}
+            className="hover:text-white hover:bg-black hover:border-white text-black border border-black px-6 py-3 rounded-full font-medium transition w-full"
+          >
+            Login
+          </button>
+        </div>
+
         {/* Close button */}
         <button
           onClick={() => setOpen(false)}
@@ -55,10 +74,14 @@ export default function Navbar() {
       </div>
 
         <div className="flex gap-2">
-            <button className="hidden md:block bg-gray-800 hover:bg-black text-white px-6 py-3 rounded-xl font-medium transition">
+            <button
+              onClick={() => navigate("/login")} 
+              className="hidden md:block bg-gray-800 hover:bg-black text-white px-6 py-3 rounded-xl font-medium transition">
                 Register
             </button>
-            <button className="hidden md:block hover:text-white hover:bg-black hover:border-white text-black border border-black px-6 py-3 rounded-full font-medium transition">
+            <button
+              onClick={() => navigate("/login")}  
+              className="hidden md:block hover:text-white hover:bg-black hover:border-white text-black border border-black px-6 py-3 rounded-full font-medium transition">
                 Login
             </button>
         </div>
