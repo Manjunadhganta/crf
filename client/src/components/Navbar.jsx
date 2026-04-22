@@ -49,16 +49,10 @@ export default function Navbar() {
         <a href="#contact" className="hover:text-gray-600">Contact Us</a>
 
         <div className="md:hidden flex flex-col gap-3 mt-6">
-          <button
-            onClick={() => navigate("/login")}
-            className="bg-gray-800 hover:bg-black text-white px-6 py-3 rounded-xl font-medium transition w-full"
-          >
-            Register
-          </button>
 
           <button
             onClick={() => navigate("/login")}
-            className="hover:text-white hover:bg-black hover:border-white text-black border border-black px-6 py-3 rounded-full font-medium transition w-full"
+            className="hover:text-white hover:bg-black hover:border-white text-black border border-black px-15 py-3 rounded-full font-medium transition w-full"
           >
             Login
           </button>
@@ -74,11 +68,6 @@ export default function Navbar() {
       </div>
 
         <div className="flex gap-2">
-            <button
-              onClick={() => navigate("/login")} 
-              className="hidden md:block bg-gray-800 hover:bg-black text-white px-6 py-3 rounded-xl font-medium transition">
-                Register
-            </button>
             <button
               onClick={() => navigate("/login")}  
               className="hidden md:block hover:text-white hover:bg-black hover:border-white text-black border border-black px-6 py-3 rounded-full font-medium transition">

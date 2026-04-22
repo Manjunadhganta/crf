@@ -1,7 +1,9 @@
 import { ArrowRight } from "lucide-react";
 import Navbar from "./Navbar";
+import { useNavigate } from "react-router-dom";
 
 export default function Hero() {
+  const navigate = useNavigate();
   return (
     <section className="bg-[url('/gridBackground.webp')] w-full bg-no-repeat bg-cover bg-center text-sm pb-44">
       <Navbar />
@@ -22,11 +24,15 @@ export default function Hero() {
       </p>
 
       <div className="mx-auto w-full flex items-center justify-center gap-3 mt-6">
-        <button className="bg-slate-800 hover:bg-black text-white px-6 py-3 rounded-full font-medium transition">
-          Get Started
+        <button 
+          className="bg-slate-800 hover:bg-black text-white px-6 py-3 rounded-full font-medium transition"
+          onClick={() => navigate("/login")}>
+          Register
         </button>
-        <button className="flex items-center gap-2 border border-slate-300 hover:bg-slate-200/30 rounded-full px-6 py-3">
-          <span>Learn More</span>
+        <button 
+          className="flex items-center gap-2 border border-slate-300 hover:bg-slate-200/30 rounded-full px-6 py-3"
+          onClick={() => navigate("/login")}>
+          <span>Login</span>
           <ArrowRight size={10} />
         </button>
       </div>
